@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/hc/Downloads/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="/home/hc/Downloads/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/home/hc/Downloads/psiegman-epublib-1b40382/epublib-core/target/epublib-core-3.1-complete.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
