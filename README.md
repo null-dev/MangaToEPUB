@@ -1,4 +1,4 @@
-# MGFetcher
+# MangaToEPUB
 A tiny, lightweight java program to fetch manga easily!
 <br>
 <strong>NOTE:</strong> This program was made for my personal use so do not expect a lot of support or updates...

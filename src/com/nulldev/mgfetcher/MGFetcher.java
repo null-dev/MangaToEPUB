@@ -33,6 +33,8 @@ import java.io.InputStream;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 /*
  * Simple Java program to fetch Manga from MangaHere.co
@@ -73,10 +75,10 @@ public class MGFetcher {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 681, 380);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		JLabel lblMgfetcher = new JLabel("MGFetcher by: nulldev");
+		JLabel lblMgfetcher = new JLabel("MangaToEPUB by: nulldev");
 		lblMgfetcher.setFont(new Font("Dialog", Font.BOLD | Font.ITALIC, 30));
 		frame.getContentPane().add(lblMgfetcher, BorderLayout.NORTH);
 
@@ -240,6 +242,14 @@ public class MGFetcher {
 			}
 		});
 		frame.getContentPane().add(btnGo, BorderLayout.EAST);
+		
+		JButton btnAdvancedOptions = new JButton("Advanced Options");
+		btnAdvancedOptions.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+			}
+		});
+		frame.getContentPane().add(btnAdvancedOptions, BorderLayout.WEST);
 	}
 
 }
