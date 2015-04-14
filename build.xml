@@ -35,7 +35,7 @@
             <src path="src"/>
             <classpath refid="MGFetcher.classpath"/>
         </javac>
-    	<jar destfile="dist/java-diff.jar" filesetmanifest="mergewithoutmain">
+    	<jar destfile="dist/MangaToEPUB.jar" filesetmanifest="mergewithoutmain">
     	            <manifest>
     	                <attribute name="Main-Class" value="com.nulldev.mgfetcher.MGFetcher"/>
     	                <attribute name="Class-Path" value="."/>
